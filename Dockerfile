@@ -3,7 +3,8 @@
 FROM quay.io/fentas/nodejs:latest
 
 RUN mkdir /opt
-ADD . /opt
+COPY . /opt
+
 RUN \
   cd /opt && \
   chmod +x index.js && \
