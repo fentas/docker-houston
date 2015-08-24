@@ -13,3 +13,4 @@ RUN \
 
 EXPOSE 8000
 ENTRYPOINT /opt/index.js
+CMD ['node']
