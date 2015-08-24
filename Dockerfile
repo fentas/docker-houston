@@ -1,5 +1,3 @@
-
-
 FROM quay.io/fentas/nodejs:latest
 MAINTAINER Jan Guth <jan.guth@gmail.com>
 
@@ -12,4 +10,4 @@ RUN \
   npm install
 
 EXPOSE 8000
-ENTRYPOINT ["/opt/entrypoint.sh"]
+ENTRYPOINT ["/opt/index.js"]
