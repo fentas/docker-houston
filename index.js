@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#!/usr/bin/env node
 
 var argv = require('minimist')(process.argv.slice(2)),
 		bodyParser = require('body-parser'),
