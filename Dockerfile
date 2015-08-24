@@ -12,5 +12,4 @@ RUN \
   npm install
 
 EXPOSE 8000
-ENTRYPOINT /opt/index.js
-CMD ['node']
+CMD ['node', '/opt/index.js']

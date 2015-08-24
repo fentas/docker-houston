@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+console.log('here')
 var argv = require('minimist')(process.argv.slice(2)),
 		bodyParser = require('body-parser'),
 		serveStatic = require('serve-static')
